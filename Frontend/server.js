@@ -34,7 +34,7 @@ var server = app.listen(3000, function () {
 });
 
 
-app.post('/https://defiant-pear-goldfish.cyclic.app/', function (req, res) {
+app.post('/', function (req, res) {
     var tweet = req.body;
     // res.send({
     //     tweet,
