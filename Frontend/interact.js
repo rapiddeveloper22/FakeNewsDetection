@@ -136,7 +136,7 @@ let downVote = async (id) => {
         console.log(ans);
 
         if (await contract.methods.checkFake(id).call() == true) {
-            fetch('/', {
+            fetch('/https://defiant-pear-goldfish.cyclic.app/', {
                 method: 'POST',
                 headers: {
                     Authorization: 'Bearer abcdxyz',
