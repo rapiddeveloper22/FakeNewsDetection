@@ -3,7 +3,7 @@ let accounts;
 let contract;
 let userName;
 let owner = "0x5a3136525e762e16D28bBF699728E5026C51e612";
-var contractAddress = "0xE8e2622118bC76a9345c6206b51c90868E537D19"
+var contractAddress = "0xde9B1FACaD35b0EC0F38c00480B6155D780515a6"
 var web3;
 var tweet;
 var finalw = 0;
