@@ -12,7 +12,7 @@ const openai = new OpenAIApi(configuration);
 
 var app = express();
 
-var totalNumOfSearchResults = 15;
+var totalNumOfSearchResults = 5;
 
 
 
