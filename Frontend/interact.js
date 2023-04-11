@@ -91,13 +91,8 @@ let addTweet = async () => {
     });
 }
 
-function randomIpsum(text, data) {
-    text.value = data
 
-    console.log(data);
 
-    return data;
-}
 
 let viewTweets = async () => {
     $("#viewAllTweets").on("click", async (e) => {
@@ -162,10 +157,7 @@ let downVote = async (id) => {
                 });
         }
 
-
-
-
-        var gs = false;
+        var text = null;
 
         $.get("/", function (data) {
             var gs = randomIpsum(text, data);
@@ -181,12 +173,13 @@ let downVote = async (id) => {
 
             console.log("al " + finalw);
         })
-
-
-
-
-
     })
+}
+
+function randomIpsum(text, data) {
+    text.value = data
+    console.log(data);
+    return data;
 }
 
 
