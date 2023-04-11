@@ -5,7 +5,7 @@ const { Configuration, OpenAIApi } = require("openai");
 const { response } = require('express');
 
 const configuration = new Configuration({
-    apiKey: GPT_KEY,
+    apiKey: process.env.GPT_KEY,
 });
 
 const openai = new OpenAIApi(configuration);
