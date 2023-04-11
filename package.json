@@ -17,7 +17,6 @@
   "scripts": {
     "start": "node Frontend/server.js",
     "dev": "lite-server",
-    "test": "lite-server",
-    "build": "node Frontend/server.js"
+    "test": "lite-server"
   }
 }
