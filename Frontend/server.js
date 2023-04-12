@@ -58,7 +58,7 @@ function searchGoogle(tweetData, res) {
         url: 'https://google-web-search1.p.rapidapi.com/',
         params: { query: tweetData, limit: totalNumOfSearchResults.toString(), related_keywords: 'true' },
         headers: {
-            'X-RapidAPI-Key': '4aaea6f517mshe6e2a9f6320d289p103c9ejsn22ceb38cf32a',
+            'X-RapidAPI-Key': '6e242bc5f1mshc4876b22b0d4e6dp138f36jsnc3c248b596ff',
             'X-RapidAPI-Host': 'google-web-search1.p.rapidapi.com'
         }
     };
